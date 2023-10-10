@@ -55,7 +55,6 @@ print "<pre>\n";
         "Los Ángeles",
         "Chicago"
     ];
-    for ($i = 0; $i <= 5; $i++)
     foreach ($Ejercicio4 as $i => $valor){
         print "<p>La ciudad con el índice $i tiene el nombre $valor</p>\n";
     };
